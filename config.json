@@ -1,0 +1,9 @@
+
+{
+  "name": "KleenZidTheme",
+  "version": "1.0.3",
+  "author": "Aslan",
+  "description": "ثيم متجاوب عربي عصري مستوحى من Kleen بتصميم مظلم.",
+  "supportedLocales": ["ar"],
+  "preview": "preview.png"
+}
