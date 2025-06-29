@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ session.lang.code }}" dir="{{ session.lang.code == 'ar' ? 'rtl' : 'ltr' }}">
+<head>
+  <meta charset="UTF-8" />
+  <title>{% block title %}{{ store.name }}{% endblock %}</title>
+  <link rel="stylesheet" href="{{ asset_url ~ 'style.css' }}" />
+</head>
+<body>
+  {% include 'header.twig' %}
+  <main>
+    {% block main_content %}{% endblock %}
+  </main>
+  {% include 'footer.twig' %}
+  <script src="{{ asset_url ~ 'main.js' }}"></script>
+</body>
+</html>
