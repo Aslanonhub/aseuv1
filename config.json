@@ -1,9 +1,12 @@
-
 {
   "name": "KleenZidTheme",
   "version": "1.0.3",
   "author": "Aslan",
   "description": "ثيم متجاوب عربي عصري مستوحى من Kleen بتصميم مظلم.",
   "supportedLocales": ["ar"],
+  "description": "ثيم متجاوب عصري بالوضع الداكن مستوحى من Kleen.",
+  "supportedLocales": ["ar", "en"],
   "preview": "preview.png"
 }
+footer.twig
+New
