@@ -1,0 +1,12 @@
+{% extends "layout.twig" %}
+
+{% block title %}{{ locals.blog_list }} - {{ store.name }}{% endblock %}
+
+{% block main_content %}
+<h1>{{ locals.blog_list }}</h1>
+<ul>
+  {% for post in blogs %}
+    <li>{{ post.title }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
