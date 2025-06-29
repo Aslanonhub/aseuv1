@@ -1,0 +1,21 @@
+
+body {
+  background-color: #0d0d0d;
+  color: white;
+  font-family: sans-serif;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+}
+.button {
+  background: #00BFFF;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.features-grid {
+  display: grid;
+  gap: 1rem;
+  padding: 2rem;
+}
