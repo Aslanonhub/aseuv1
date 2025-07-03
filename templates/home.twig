@@ -1,0 +1,56 @@
+{% extends "layout.twig" %}
+
+{% block title %}{{ locals.home_title }} - {{ store.name }}{% endblock %}
+
+{% block main_content %}
+<section class="hero reveal">
+  <h1>{{ locals.hero_heading }}</h1>
+  <p>{{ locals.hero_subheading }}</p>
+</section>
+
+<section id="features" class="features-grid reveal">
+  <div>⚡ {{ locals.instant_response }}</div>
+  <div>🎯 {{ locals.magnetic_precision }}</div>
+  <div>🧠 {{ locals.pro_design }}</div>
+  <div>🎮 {{ locals.custom_back_buttons }}</div>
+</section>
+
+<section class="reveal">
+  <h2>Before / After</h2>
+  <div class="card-grid">
+    <div class="card">قبل</div>
+    <div class="card">بعد</div>
+  </div>
+</section>
+
+<section class="card-grid reveal">
+  <div class="card">
+    <span class="badge">الأكثر مبيعًا</span>
+    <h3>منتج 1</h3>
+  </div>
+  <div class="card">
+    <span class="badge">الأكثر مبيعًا</span>
+    <h3>منتج 2</h3>
+  </div>
+</section>
+
+<section class="reveal">
+  <h2>{{ locals.testimonials }}</h2>
+  <div class="card-grid">
+    <div class="card">★★★★★</div>
+    <div class="card">★★★★★</div>
+  </div>
+</section>
+
+<section id="faq" class="reveal">
+  <h2>{{ locals.faq }}</h2>
+  <div class="faq-item">
+    <div class="faq-question">سؤال 1</div>
+    <div class="faq-answer">إجابة 1</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-question">سؤال 2</div>
+    <div class="faq-answer">إجابة 2</div>
+  </div>
+</section>
+{% endblock %}
