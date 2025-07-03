@@ -1,0 +1,12 @@
+{% extends "layout.twig" %}
+
+{% block title %}{{ locals.all_categories }} - {{ store.name }}{% endblock %}
+
+{% block main_content %}
+<h1>{{ locals.all_categories }}</h1>
+<ul>
+  {% for cat in categories %}
+    <li>{{ cat.name }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
