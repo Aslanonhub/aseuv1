@@ -19,3 +19,6 @@ body {
   gap: 1rem;
   padding: 2rem;
 }
+.button:hover {
+    background-color: #008FCC;
+  }
